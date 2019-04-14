@@ -1,0 +1,3 @@
+﻿  binarySearch.cpp
+e:\programing\c++\binarysearch\binarysearch\binarysearch.cpp(38): warning C4715: 'firstIndex': not all control paths return a value
+  BinarySearch.vcxproj -> E:\programing\C++\BinarySearch\Debug\BinarySearch.exe
