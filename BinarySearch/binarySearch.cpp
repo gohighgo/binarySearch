@@ -3,7 +3,7 @@ using namespace std;
 
 const int n = 10;
 
-void print(int arr[], int n)
+void print(int *arr, int n)
 {
 	/*
 	Function prints arrays.
@@ -28,16 +28,6 @@ int binarySearch(int *arr, int el, int start, int end) {
 	else
 		return mid;
 }
-
-int firstIndex(int *arr, int el) {
-	int size = (sizeof(arr) / sizeof(*arr));
-	for (int i = 0; i < size; i++) {
-		if (arr[i] == el)
-			return i;
-	}
-}
-
-
 
 int main() {
 	int *arr = new int[n];
